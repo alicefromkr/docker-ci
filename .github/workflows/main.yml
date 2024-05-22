@@ -42,5 +42,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add websource/deploy.yaml
-          git commit -m `Update Docker images and change image to version ${{ env.NEW_VERSION }}`
+          git commit -m "Update Docker images and change image to version ${{ env.NEW_VERSION }}"
           git push origin main
